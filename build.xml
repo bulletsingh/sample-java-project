@@ -30,7 +30,9 @@
         <ivy:retrieve/>
     </target>    
          
-         
+  <classpath>
+  <pathelement path="${classpath}"/>
+</classpath>       
          
          
 
