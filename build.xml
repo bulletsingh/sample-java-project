@@ -31,7 +31,11 @@
     </target>    
          
   <classpath>
-  <pathelement path="${classpath}"/>
+   <path id="MyProject.classpath">
+   <pathelement location="lib/"/>
+   <pathelement path="${classpath}/"/>
+   <pathelement path="${additional.path}"/>
+  </path
 </classpath>       
          
          
