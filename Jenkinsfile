@@ -1,6 +1,6 @@
 pipeline{
   agent{
-    none
+    label 'Linux'
     }
   stages{
   stage('build'){
