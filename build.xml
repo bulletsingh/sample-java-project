@@ -35,7 +35,7 @@
    <pathelement location="lib/"/>
    <pathelement path="${classpath}/"/>
    <pathelement path="${additional.path}"/>
-  </path
+           </path>
 </classpath>       
          
          
